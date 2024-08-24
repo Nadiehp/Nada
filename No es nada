@@ -1,0 +1,13 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Buy",
+"Enabled",
+"p"
+)
+
+--Tabs--
+
+local tab1 = window:CreateTab("By NbHp")
+--Buttons
+
+tab1:CreateButton("Entrar a zona VIP", function()
