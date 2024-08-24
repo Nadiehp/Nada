@@ -11,3 +11,5 @@ local tab1 = window:CreateTab("By NbHp")
 --Buttons
 
 tab1:CreateButton("Entrar a zona VIP", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadiehp/No-es-nada-/main/No%20es%20nada-%40%40"))()
+end)
